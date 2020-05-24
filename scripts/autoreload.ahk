@@ -20,10 +20,10 @@ FileGetAttrib, attribs, %A_ScriptFullPath%
 
 IfInString, attribs, A
 {
-	FileSetAttrib, -A, %A_ScriptFullPath%
-	SplashTextOn,,, Script has been updated,
-	Sleep, 500
-	Reload
+    FileSetAttrib, -A, %A_ScriptFullPath%
+    SplashTextOn,,, Script has been updated,
+    Sleep, 500
+    Reload
 }
 
 return
