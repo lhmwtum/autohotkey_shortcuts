@@ -1,4 +1,4 @@
-; Created by: Leonhard Hermansdorfer
+﻿; Created by: Leonhard Hermansdorfer
 ; Created on: 12.11.2019
 ;
 ; Documentation
