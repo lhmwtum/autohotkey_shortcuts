@@ -169,10 +169,10 @@ return
 ;--- Load Function -------------------------------------------------------------
 ; this function loads files, folders, websites and applications
 load(what){
-  Suspend Off
-  switch_to_InsertMode()
-  Run %what%
-  return
+    Suspend Off
+    switch_to_InsertMode()
+    Run %what%
+    return
 }
 
 ;--- User Input Function -------------------------------------------------------
@@ -210,11 +210,11 @@ switch_to_ShortcutMode(){
 }
 
 switchBackRoutine(){
-	SplashTextOn,,, No Action Found,
-	Suspend Off
-	SendInput, {CapsLock Up}
-	SetCapsLockState, Off
-	SetCapsLockState, AlwaysOff
-	Sleep 500
-	SplashTextOff
+    SplashTextOn,,, No Action Found,
+    Suspend Off
+    SendInput, {CapsLock Up}
+    SetCapsLockState, Off
+    SetCapsLockState, AlwaysOff
+    Sleep 500
+    SplashTextOff
 }
