@@ -22,11 +22,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ;--- Include Scripts -----------------------------------------------------------
 
-GoSub autoreload
 GoSub wtf_shortcuts
-
-autoreload:
-#Include %A_ScriptDir%\scripts\autoreload.ahk
 
 wtf_shortcuts:
 #Include %A_ScriptDir%\scripts\wtf_shortcuts.ahk
