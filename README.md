@@ -1,4 +1,5 @@
-# AutoHotkey - Shortcuts
+# AutoHotkey - Shortcuts [![AutoHotkey](https://img.shields.io/badge/Language-AutoHotkey-informational.svg)](https://autohotkey.com/) ![GitHub](https://img.shields.io/github/license/lhmwtum/autohotkey_shortcuts) ![GitHub issues](https://img.shields.io/github/issues-raw/lhmwtum/autohotkey_shortcuts)
+
 This repository provides AutoHotkey (AHK) scripts for setting up a variety of shortcuts on your Windows computer. All scripts can be easily extended the way you need it.
 You do not have to know much about AHK to customize the features of these scripts to your needs.
 
