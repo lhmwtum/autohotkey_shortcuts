@@ -4,12 +4,6 @@
 ; Documentation
 ; This file manages all types of hotkeys which are triggered by key combinations.
 ;
-;--- Settings ------------------------------------------------------------------
-
-#NoEnv
-
-;-------------------------------------------------------------------------------
-
 ; AHK uses symbols to abbreviate special keys
 ; ^ -> ctrl (strg)
 ; ! -> alt
@@ -17,6 +11,12 @@
 ; # -> windows key
 
 ; e.g. ^+x means you have to press "ctrl", "shift" and "x" at the same time
+
+;--- Settings ------------------------------------------------------------------
+
+#NoEnv
+
+;--- hotkeys -------------------------------------------------------------------
 
 
 ;--- media control -------------------------------------------------------------
@@ -50,7 +50,7 @@
 ; display a predefined route in google maps (press Windows key and "m")
 ; search for your route in google maps, then paste the link here. In most cases,
 ; you will have to shorten it.
-#m::Run https://goo.gl/maps/MeTqvRSTaLa25Cf9A
+#m::Run https://www.google.com/maps/dir/Muenchen/Berlin/
 
 ; --- google search -----
 ; use google to search for highlighted string (press "ctrl", "shift" and "c")

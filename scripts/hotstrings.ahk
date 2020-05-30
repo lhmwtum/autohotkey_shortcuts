@@ -4,6 +4,11 @@
 ; Documentation
 ; This file manages all types of hotstrings which are triggered by strings.
 ;
+; You can set arbitrary string combinations as shortcuts. Some examples are
+; provided here to give an impression on how hotstrings work.
+;
+; Detailed information can be found here: https://www.autohotkey.com/docs/Hotstrings.htm
+;
 ;--- Settings ------------------------------------------------------------------
 
 #NoEnv
@@ -14,7 +19,7 @@
 
 ::@mail::your@email.com
 
-::iipp::1.1.1.1
+::gpu_ip::1.1.1.1
 
 
 ;--- email phrases -------------------------------------------------------------
@@ -29,6 +34,7 @@
 
 ::ys::Yours sincerely
 ::br::Best regards,{Enter}Your Name
+::ty::Thank you.
 
 
 ;--- time & date ---------------------------------------------------------------
