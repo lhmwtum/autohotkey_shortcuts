@@ -12,7 +12,8 @@ What you get:
 **Important:** All ``.ahk`` text files need to be saved with **UTF8-BOM** encoding rather than UTF8 if you want to use hotstrings with special characters, e.g., German ä, ö, ü.
 
 ## List of Components
-* ``scripts``: this folder contains all scripts which provide different functionality. All scripts are started via ``mainscript.ahk``.
+* ``Config``: this folder contains files to configure and personalize the functionality of certain scripts.
+* ``Scripts``: this folder contains all scripts which provide different functionality. All scripts are started via ``mainscript.ahk``.
 * ``mainscript.ahk``: this file starts and manages all scripts within the ``scripts`` folder. It provides an easy way to start your AHK functionality at Windows start up.
 
 ## Getting Started
