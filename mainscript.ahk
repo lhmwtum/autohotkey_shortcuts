@@ -20,15 +20,15 @@ SetBatchLines -1
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
-;--- Include Scripts -----------------------------------------------------------
+;--- Include scripts -----------------------------------------------------------
 
 GoSub wtf_shortcuts
+GoSub hotstrings
 
 wtf_shortcuts:
-#Include %A_ScriptDir%\scripts\wtf_shortcuts.ahk
+#Include %A_ScriptDir%\Scripts\wtf_shortcuts.ahk
 
-#Include %A_ScriptDir%\scripts\hotkeys.ahk
-#Include %A_ScriptDir%\scripts\hotstrings.ahk
+hotstrings:
+#Include %A_ScriptDir%\Scripts\hotstrings.ahk
 
-
-;-------------------------------------------------------------------------------
+#Include %A_ScriptDir%\Scripts\hotkeys.ahk
